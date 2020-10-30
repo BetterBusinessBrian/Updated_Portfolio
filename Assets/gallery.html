@@ -37,15 +37,15 @@
                 <li>
                     <a href="index.html">About</a>
                 </li>
-                <li class='active'>
-                    <a href="#">Portfolio</a>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
                         class="dropdown-toggle">Widgets</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="gallery.html">Adventure Gallery</a>
+                            <a  class = "active" href="#">Adventure Gallery</a>
                         </li>
                         <li>
                             <a href="#">Endorsed Reading</a>
@@ -114,74 +114,31 @@
                     </div>
                 </div>
             </nav>
-            <!-- content -->
-            <div class="container card">
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-md-7">
-                        <div class="card-body">
-                            <h2 class="card-title">Begin your Adventure</h2>
-                            <p class="card-text"> Fast and accurate National Park and weather data for every state!</p>
-                            <p class="card-text"> Link to deployed site: <button onclick= "window.location='https://betterbusinessbrian.github.io/Begin-Your-Adventure/';">Site</button></p>
-                            <p class="card-text"> Link to Github Repo: <button onclick= "window.location='https://github.com/BetterBusinessBrian/Begin-Your-Adventure/';">Repo</button></p>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="../images/begin.jpg" class="card-img portPics" alt="bya">
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container card">
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-md-7">
-                        <div class="card-body">
-                            <h2 class="card-title">Timed Javascript Quiz</h2>
-                            <p class="card-text"> Answer all 5 questions before time runs out! Saves highscores.</p>
-                            <p class="card-text"> Link to deployed site: <button onclick= "window.location='https://betterbusinessbrian.github.io/Timed-Javascript-Quiz/';">Site</button></p>
-                            <p class="card-text"> Link to Github Repo: <button onclick= "window.location='https://github.com/BetterBusinessBrian/Timed-Javascript-Quiz';">Repo</button></p>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="../images/quiz.JPG" class="card-img portPics" alt="quiz">
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="container card">
-                <div class="row justify-content-center no-gutters">
-                    <div class="col-md-7">
-                        <div class="card-body">
-                            <h2 class="card-title">Secure Password Generator</h2>
-                            <p class="card-text">Set your own criteria and generate a secure password automatically!</p>
-                            <p class="card-text"> Link to deployed site: <button onclick= "window.location='https://betterbusinessbrian.github.io/Secure-Password-Generator/';">Site</button></p>
-                            <p class="card-text"> Link to Github Repo: <button onclick= "window.location='https://github.com/BetterBusinessBrian/Secure-Password-Generator/';">Repo</button></p>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <img src="../images/password.JPG" class="card-img portPics" alt="passwordImage">
-                    </div>
-                </div>
-            </div>
-            </>
-        </div>
-    </div>
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
+            <!-- content -->
+
+        </div>
+
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+    
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                });
             });
-        });
-    </script>
+        </script>
+    </body>
+    
+    </html>
