@@ -6,7 +6,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url(../images/tree.jpg);
-    background-repeat: no-repeat;
 }
 
 p {
@@ -122,20 +121,27 @@ ul ul a {
     background:rgba( 90,  90,  90, 0.5);
 }
 
+
 .brian{
     max-width: 500px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    padding:1px;
+    margin: 5px;
+    padding:5px;
    border:1px solid #021a40;
 }
 
 .card{
     background:rgba(90, 90, 90, 0.5);
-    
 }
+
+.card-text{
+    color: white;
+    font-size: larger;
+}
+
+/* .card-title{
+
+} */
 
 /* ---------------------------------------------------
     CONTENT STYLE
