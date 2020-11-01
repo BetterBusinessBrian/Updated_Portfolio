@@ -4,7 +4,7 @@ Project portfolio updated after 8 weeks in development bootcamp.
 
 Link to deployed App: 
 
-Technologies used: HTML, CSS, Bootstrap, JQuery
+Technologies used: HTML, CSS, Bootstrap, JQuery, PublicAlbum.org, 
 
 Use: Its not a finished portfolio by any means, but its on its way.
  
