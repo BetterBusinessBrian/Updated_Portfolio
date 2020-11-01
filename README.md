@@ -20,8 +20,6 @@ Update multiple homework projects to be presentable
 Update README to accepted format
 Add to site
 
-RESUME: The resume in place is not up to date and will be replaced
-
 LINKEDIN: Links to my LinkedIn not vice versa until features are updated
 
 
