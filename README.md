@@ -23,8 +23,6 @@ Add to site
 LINKEDIN: Links to my LinkedIn not vice versa until features are updated
 
 
-
-
 Screenshot:
 
 License: MIT
