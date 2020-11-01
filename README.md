@@ -2,7 +2,7 @@
 Project portfolio updated after 8 weeks in development bootcamp.
 
 
-Link to deployed App: 
+Link to deployed App:  https://betterbusinessbrian.github.io/Updated_Portfolio/
 
 Technologies used: HTML, CSS, Bootstrap, JQuery, PublicAlbum.org, 
 
